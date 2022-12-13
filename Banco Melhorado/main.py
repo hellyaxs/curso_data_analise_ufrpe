@@ -61,5 +61,5 @@ while escolha > 0:
         if resp:
             print("Conta com novo saldo")
         else:
-            print("A conta não existe")       
+            print("A conta não é bonificada")       
     escolha = int(input("digite a opção desejada:"))

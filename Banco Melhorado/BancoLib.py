@@ -95,6 +95,6 @@ class Banco():
                 i.renderBonusB()
                 return True   
             elif isinstance(i,Poupanca) or isinstance(i,Conta):
-                i.renderbonus()
-                return True
+                # i.renderbonus()
+                return False
         return False
